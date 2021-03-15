@@ -1,0 +1,56 @@
+{
+    "name": "epmnzava/bulksms",
+    "description": "Package wrapper for bulksms.com to be used by laravel developers",
+    "keywords": [
+        "epmnzava",
+        "bulksms"
+    ],
+    "homepage": "https://github.com/epmnzava/bulksms",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Emmanuel Paul Mnzava",
+            "email": "epmzava@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^7.2|^7.3|^7.4|^8.0",
+        "barryvdh/laravel-dompdf": "^0.9.0",
+        "illuminate/support": "^5.5.44|^6.0|^7.0|^8.0",
+        "nesbot/carbon": "^2.44"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epmnzava\\Bulksms\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Epmnzava\\Bulksms\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Epmnzava\\Bulksms\\BulksmsServiceProvider"
+            ],
+            "aliases": {
+                "Bulksms": "Epmnzava\\Bulksms\\BulksmsFacade"
+            }
+        }
+    }
+}
