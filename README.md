@@ -42,7 +42,7 @@ BULKSMS_SENDERID `Provide your desired sender id `
 
 BULKSMS_SECRET `Provide your bulksms token secret`
 
-BULKSMS_ID  `Provide your bulksms token id
+BULKSMS_ID  `Provide your bulksms token id`
 
 
 
