@@ -61,7 +61,7 @@ $sms=new Bulksms;
 
 $response=$sms->sendMessage("+255679079774","Just testing please receive blessings");
 
-//reponse will look like this
+//Your response will look like this
 
 /**{
 server_response: "[ { "id" : "953262833859043328", "type" : "SENT", "from" : "PamojaWeCan", "to" : "255679079774", "body" : "hellow man", "encoding" : "TEXT", "protocolId" : 0, "messageClass" : 0, "submission" : { "id" : "2-00000000001865236111", "date" : "2021-03-15T12:06:10Z" }, "status" : { "id" : "ACCEPTED.null", "type" : "ACCEPTED", "subtype" : null }, "relatedSentMessageId" : null, "userSuppliedId" : null, "numberOfParts" : null, "creditCost" : null } ]",
