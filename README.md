@@ -6,7 +6,7 @@
 
 A package api wrapper for bulksms.com mainly developed to be used and resued by php and laravel developers
 
-## Installation
+# Installation
 
 You can install the package via composer:
 
@@ -14,13 +14,34 @@ You can install the package via composer:
 composer require epmnzava/bulksms
 ```
 
-## Usage
+# Usage
 
+## Send a simple text 
 ``` php
 <?php
+use Epmnzava\Bulksms\Bulksms;
 
-//coming soon
+class SendSmsController(Request $request){
 
+public function send_sms(){
+
+$sms=new Bulksms;
+
+$response=$sms->sendMessage("+255679079774","Just testing please receive blessings");
+
+//reponse will look like this
+
+/**{
+server_response: "[ { "id" : "953262833859043328", "type" : "SENT", "from" : "PamojaWeCan", "to" : "255679079774", "body" : "hellow man", "encoding" : "TEXT", "protocolId" : 0, "messageClass" : 0, "submission" : { "id" : "2-00000000001865236111", "date" : "2021-03-15T12:06:10Z" }, "status" : { "id" : "ACCEPTED.null", "type" : "ACCEPTED", "subtype" : null }, "relatedSentMessageId" : null, "userSuppliedId" : null, "numberOfParts" : null, "creditCost" : null } ]",
+http_status: 201,
+error: ""
+} 
+
+**/
+
+}
+
+}
 
 ```
 
