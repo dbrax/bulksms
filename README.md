@@ -1,7 +1,7 @@
 # BULKSMS.COM API PACKAGE WRAPPER
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/epmnzava/bulksms.svg?style=flat-square)](https://packagist.org/packages/epmnzava/bulksms)
-[![Quality Score](https://img.shields.io/scrutinizer/g/epmnzava/bulksms.svg?style=flat-square)](https://scrutinizer-ci.com/g/epmnzava/bulksms)
+[![Quality Score](https://img.shields.io/scrutinizer/g/dbrax/bulksms.svg?style=flat-square)](https://scrutinizer-ci.com/g/epmnzava/bulksms)
 [![Total Downloads](https://img.shields.io/packagist/dt/epmnzava/bulksms.svg?style=flat-square)](https://packagist.org/packages/epmnzava/bulksms)
 
 A package api wrapper for bulksms.com mainly developed to be used and resued by php and laravel developers
