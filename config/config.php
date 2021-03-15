@@ -14,7 +14,7 @@ return [
 
     "sender_id"=>env("BULKSMS_SENDERID","INFO"),
 
-    "token_secret"=>env("BULKSMS_SECRET","ltTQfMQWrJF*cocCx2meq2u4kIbH_"),
+    "token_secret"=>env("BULKSMS_SECRET"),
 
     "token_id"=>env("BULKSMS_ID"),
 

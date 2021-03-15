@@ -22,9 +22,9 @@ class SendSmsTest extends  TestCase
 
         $sms=new Bulksms;
 
-        $sms->sendMessage("255679079774","hellow man");
+        $response=json_encode($sms->sendMessage("255679079774","hellow man"));
 
-        //$this->assertTrue(true);
+
     }
 
 }
