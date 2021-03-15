@@ -53,7 +53,7 @@ BULKSMS_ID  `Provide your bulksms token id`
 <?php
 use Epmnzava\Bulksms\Bulksms;
 
-class SendSmsController(Request $request){
+class SendSmsController{
 
 public function send_sms(){
 
