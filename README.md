@@ -8,11 +8,43 @@ A package api wrapper for bulksms.com mainly developed to be used and resued by 
 
 # Installation
 
+- Laravel Version: ˆ7.2 ==> ^8.0
+- PHP Version: ^7.1|^7.2|^7.3|^7.4|^8.0
+
+
 You can install the package via composer:
 
 ```bash
 composer require epmnzava/bulksms
 ```
+
+
+
+# Update your config (for Laravel 5.4 and below)
+Add the service provider to the providers array in config/app.php:
+```
+Epmnzava\Bulksms\BulksmsServiceProvider::class,
+```
+Add the facade to the aliases array in config/app.php:
+```
+'BulkSms'=>Epmnzava\Bulksms\BulksmsFacade::class,
+```
+
+# Publish the package configuration (for Laravel 5.4 and below)
+Publish the configuration file and migrations by running the provided console command:
+```
+php artisan vendor:publish --provider="Epmnzava\Bulksms\BulksmsServiceProvider"
+```
+### Environmental Variables
+
+BULKSMS_SENDERID `Provide your desired sender id `
+
+
+BULKSMS_SECRET `Provide your bulksms token secret`
+
+BULKSMS_ID  `Provide your bulksms token id
+
+
 
 # Usage
 
