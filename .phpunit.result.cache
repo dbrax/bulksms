@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":222:{a:2:{s:7:"defects";a:1:{s:43:"Epmnzava\Bulksms\Tests\SendSmsTest::sendSms";i:5;}s:5:"times";a:2:{s:48:"Epmnzava\Bulksms\Tests\ExampleTest::true_is_true";d:0.556;s:43:"Epmnzava\Bulksms\Tests\SendSmsTest::sendSms";d:1.787;}}}
