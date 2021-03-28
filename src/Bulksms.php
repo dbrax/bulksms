@@ -46,7 +46,7 @@ class Bulksms
         $password = config('bulksms.token_secret');
 
         $messages = array(
-            array('to'=>$recepient, 'body'=>$message)
+            array('to'=>$recepient, 'body'=>$message,'from'=>config('bulksms.sender_id'))
         );
 
         $api=new ApiUtil;
