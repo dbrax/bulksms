@@ -4,14 +4,8 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/dbrax/bulksms.svg?style=flat-square)](https://scrutinizer-ci.com/g/epmnzava/bulksms)
 [![Total Downloads](https://img.shields.io/packagist/dt/epmnzava/bulksms.svg?style=flat-square)](https://packagist.org/packages/epmnzava/bulksms)
 
-** -----------------------------------------------*
-**|                                               |
-**|              Copyright (c) 2021               |
-**|             Emmanuel Mnzava                   |
-**|                                               |
-**|         Thanks for using Bulksms!             |
-*-------------------------------------------------*
-A package api wrapper for bulksms.com mainly developed to be used and resued by php and laravel developers
+
+## A package api wrapper for bulksms.com mainly developed to be used and resued by php and laravel developers
 
 # Installation
 
