@@ -8,7 +8,7 @@ A package api wrapper for bulksms.com mainly developed to be used and resued by 
 
 # Installation
 
-- Laravel Version: ˆ7.2 ==> ^8.0
+- Laravel Version: ˆ7.2 ==> ^9.0
 - PHP Version: ^7.1|^7.2|^7.3|^7.4|^8.0
 
 
